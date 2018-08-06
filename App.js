@@ -16,10 +16,23 @@ function genPortfolio() {
     "react-Quote-App"
   ];
 
+  const linkNames = [
+    "calculator",
+    "localWeatherApp",
+    "pomodoroClock",
+    "tictactoe",
+    "travel-site-tut",
+    "twitchStreamList",
+    "wikipediaViewer",
+    "React-drumMachine",
+    "React-markdownPreviewer",
+    "React-quoteApp"
+  ];
+
   for (let i = 0; i < baseNames.length; i++) {
     const markup = `
       <a class="portfolio-image" href="https://marzdor.github.io/${
-        baseNames[i]
+        linkNames[i]
       }" target="_blank">
             <div class="project-tile">
                 <img src="images/${baseNames[i]}_small.png" srcset="images/${
