@@ -4,7 +4,7 @@ window.onload = function() {
 
 function genPortfolio() {
   const baseNames = [
-    "calculator",
+    "react-calculator",
     "local-Weather-App",
     "pomodoro-Clock",
     "tic-tac-toe",
@@ -17,7 +17,7 @@ function genPortfolio() {
   ];
 
   const linkNames = [
-    "calculator",
+    "React-calculator",
     "localWeatherApp",
     "pomodoroClock",
     "tictactoe",
