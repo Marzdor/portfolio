@@ -5,28 +5,30 @@ window.onload = function() {
 function genPortfolio() {
   const baseNames = [
     "react-calculator",
+    "react-Drum-Machine",
+    "react-Markdown-Previewer",
+    "react-Quote-App",
+    "react-Pomodoro-Clock",
     "local-Weather-App",
     "pomodoro-Clock",
     "tic-tac-toe",
     "travel-site-tut",
     "twitch-Stream-List",
-    "wikipedia-Viewer",
-    "react-Drum-Machine",
-    "react-Markdown-Previewer",
-    "react-Quote-App"
+    "wikipedia-Viewer"
   ];
 
   const linkNames = [
     "React-calculator",
+    "React-drumMachine",
+    "React-markdownPreviewer",
+    "React-quoteApp",
+    "React-pomodoroClock",
     "localWeatherApp",
     "pomodoroClock",
     "tictactoe",
     "travel-site-tut",
     "twitchStreamList",
-    "wikipediaViewer",
-    "React-drumMachine",
-    "React-markdownPreviewer",
-    "React-quoteApp"
+    "wikipediaViewer"
   ];
 
   for (let i = 0; i < baseNames.length; i++) {
