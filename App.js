@@ -4,6 +4,7 @@ window.onload = function() {
 
 function genPortfolio() {
   const baseNames = [
+    "DnD-5E",
     "react-calculator",
     "react-Drum-Machine",
     "react-Markdown-Previewer",
@@ -18,6 +19,7 @@ function genPortfolio() {
   ];
 
   const linkNames = [
+    "DnD_5E_Site",
     "React-calculator",
     "React-drumMachine",
     "React-markdownPreviewer",
